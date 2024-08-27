@@ -1,4 +1,16 @@
-import { cn } from "../../lib/utils";
+"use client";
+
+//  "use client" was added because of these Next.js errors
+//  Error:
+//    × You're importing a component that needs useEffect. It only works in a
+//      Client Component but none of its parents are marked with "use client", so
+//      they're Server Components by default.
+//  Error:
+//    × You're importing a component that needs useRef. It only works in a
+//      Client Component but none of its parents are marked with "use client", so
+//      they're Server Components by default.
+
+import { cn } from "@/lib/utils";
 import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
 import { motion } from "framer-motion";
