@@ -42,7 +42,7 @@ export const Vortex = (props: VortexProps) => {
   const rangeSpeed = props.rangeSpeed || 1.5;
   const baseRadius = props.baseRadius || 1;
   const rangeRadius = props.rangeRadius || 2;
-  const baseHue = props.baseHue || 220;
+  const baseHue = props.baseHue || 120;
   const rangeHue = 100;
   const noiseSteps = 3;
   const xOff = 0.00125;
