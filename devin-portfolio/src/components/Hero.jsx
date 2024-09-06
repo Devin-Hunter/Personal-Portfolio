@@ -7,6 +7,7 @@ const Hero = () => {
       <div>
         <Vortex className="top-38 left-80 h-[80vh] w-[50vw]" fill="bg-black"/>
         <div  className="h-screen w-full bg-black relative flex items-center justify-center px-0"/>
+          <p className="text-center text-white">Devin Hunter</p>
       </div>
 
 
