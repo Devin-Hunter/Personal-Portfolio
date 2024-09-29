@@ -1,6 +1,6 @@
 import React from 'react'
 import { Vortex } from '../components/ui/vortex'
-import { HoverBorderGradient } from './ui/hover-border'
+import { LightUpButton } from './ui/LightUpButton'
 
 const Hero = () => {
   return (
@@ -47,11 +47,12 @@ const Hero = () => {
             <p className="text-white text-sm md:text-2xl mt-6 text-center">
               I'm a software engineer and I'm ready for a job
             </p>
-            <a href='#about' className='justify-items-center'>
-              <HoverBorderGradient
-
-              children='Look at my work'/>
-            </a>
+            <div className=''>
+              <a href='#about' className=''>
+                <LightUpButton
+                title='Check out my work'/>
+              </a>
+            </div>
           </div>
 
         </Vortex>
