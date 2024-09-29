@@ -47,14 +47,13 @@ const Hero = () => {
             <p className="text-white text-sm md:text-2xl mt-6 text-center">
               I'm a software engineer and I'm ready for a job
             </p>
-            <div className=''>
+            <div className='relative flex items-center justify-center'>
               <a href='#about' className=''>
                 <LightUpButton
                 title='Check out my work'/>
               </a>
             </div>
           </div>
-
         </Vortex>
 
       {/* <div>
