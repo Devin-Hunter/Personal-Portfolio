@@ -1,5 +1,6 @@
 import React from 'react'
 import { Vortex } from '../components/ui/vortex'
+import { HoverBorderGradient } from './ui/hover-border'
 
 const Hero = () => {
   return (
@@ -39,18 +40,18 @@ const Hero = () => {
         baseHue={120}
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
         >
-          <div className="bg-emerald-900 py-5 px-5 justify-items-center">
+          <div className="bg-black py-5 px-5 justify-items-center">
             <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
             Welcome to Devin's portfolio!
             </h2>
-            <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
+            <p className="text-white text-sm md:text-2xl mt-6 text-center">
               I'm a software engineer and I'm ready for a job
             </p>
-            <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-              <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg
-              text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">Let's Chat</button>
-              <button className="px-4 py-2  text-white ">Resume</button>
-            </div>
+            <a href='#about' className='justify-items-center'>
+              <HoverBorderGradient
+
+              children='Look at my work'/>
+            </a>
           </div>
 
         </Vortex>
