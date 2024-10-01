@@ -1,6 +1,8 @@
 import React from 'react'
 import { Vortex } from '../components/ui/vortex'
 import { LightUpButton } from './ui/LightUpButton'
+import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from 'react-icons/md'
+import { FaChevronCircleDown, FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -47,10 +49,11 @@ const Hero = () => {
             <p className="text-white text-sm md:text-2xl mt-6 text-center">
               I'm a software engineer and I'm ready for a job
             </p>
-            <div className='relative flex items-center justify-center'>
-              <a href='#about' className=''>
+            <div className='relative flex justify-center'>
+              <a href='#about'>
                 <LightUpButton
-                title='Check out my work'/>
+                  title="Let's Go" icon={<MdKeyboardDoubleArrowDown />}
+                />
               </a>
             </div>
           </div>
