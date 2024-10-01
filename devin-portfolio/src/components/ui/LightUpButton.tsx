@@ -1,9 +1,9 @@
 import React from 'react'
 
 export const LightUpButton = ({
-  title, icon, position, handleClick
+  title, icon, handleClick
 }: {
-  title: string; icon: React.ReactNode; position: string; handleClick?: () => void;
+  title: string; icon: React.ReactNode; handleClick?: () => void;
 }) => {
   return (
     <button className="p-[3px] mt-4 relative">

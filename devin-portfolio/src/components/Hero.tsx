@@ -1,8 +1,7 @@
 import React from 'react'
-import { Vortex } from '../components/ui/vortex'
+import { Vortex } from './ui/vortex'
 import { LightUpButton } from './ui/LightUpButton'
-import { MdKeyboardArrowDown, MdKeyboardDoubleArrowDown } from 'react-icons/md'
-import { FaChevronCircleDown, FaLocationArrow } from 'react-icons/fa'
+import { MdKeyboardDoubleArrowDown } from 'react-icons/md'
 
 const Hero = () => {
   return (
@@ -44,7 +43,7 @@ const Hero = () => {
         >
           <div className="bg-black py-5 px-5 justify-items-center">
             <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
-            Welcome to Devin's portfolio!
+              Welcome to Devin's portfolio!
             </h2>
             <p className="text-white text-sm md:text-2xl mt-6 text-center">
               I'm a software engineer and I'm ready for a job
